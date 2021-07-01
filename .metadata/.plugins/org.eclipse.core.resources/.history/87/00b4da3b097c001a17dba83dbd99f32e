@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Deneme916 {
+	public static void main(String[]args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("**********************");
+		System.out.print("Lütfen Islem Seciniz: ");
+		System.out.print("1. Islem Bakiye Ögrenme");
+		System.out.print("2. Islem Para Cekme");
+		System.out.print("3. Islem Para Yatirma");
+		System.out.print("Cikmak icin q'ya basiniz...");
+		System.out.print("**********************");
+		
+		
+		
+		
+		
+	}
+
+}

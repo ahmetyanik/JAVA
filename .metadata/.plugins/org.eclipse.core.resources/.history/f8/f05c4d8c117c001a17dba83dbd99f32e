@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+public class Deneme916 {
+	public static void main(String[]args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("**********************");
+		System.out.println("1. Islem Bakiye Ögrenme");
+		System.out.println("2. Islem Para Cekme");
+		System.out.println("3. Islem Para Yatirma");
+		System.out.println("Cikmak icin q'ya basiniz...");
+		System.out.println("**********************");
+		
+		
+
+		
+		while (true) {
+			System.out.print("Lütfen Islem Seciniz: ");
+			
+			String islem = scanner.next();
+			int bakiye = 1000;
+			
+			if (islem.equals("1")) {
+				System.out.println("Bakiyeniz: "+bakiye);
+				
+				
+			}
+			else if(islem.equals("2")) {
+				System.out.println("Lütfen Cekmek Istediginiz Miktari Giriniz: ");
+				int miktar = scanner.nextInt();
+				scanner.nextLine();
+				bakiye -= miktar;
+			}
+			
+			
+			
+				
+				
+				
+				
+				
+				
+			}
+		}
+		
+		
+		
+		
+	}
+
+
